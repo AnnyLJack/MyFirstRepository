@@ -21,6 +21,7 @@
 		99B69B8B1991DA2500F18695 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99B69B6D1991DA2500F18695 /* UIKit.framework */; };
 		99B69B931991DA2500F18695 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 99B69B911991DA2500F18695 /* InfoPlist.strings */; };
 		99B69B951991DA2500F18695 /* MyFirstRepositoryDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 99B69B941991DA2500F18695 /* MyFirstRepositoryDemoTests.m */; };
+		99B69BB01991DBF600F18695 /* MyFirstTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 99B69BAF1991DBF600F18695 /* MyFirstTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		99B69B901991DA2500F18695 /* MyFirstRepositoryDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MyFirstRepositoryDemoTests-Info.plist"; sourceTree = "<group>"; };
 		99B69B921991DA2500F18695 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		99B69B941991DA2500F18695 /* MyFirstRepositoryDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyFirstRepositoryDemoTests.m; sourceTree = "<group>"; };
+		99B69BAE1991DBF600F18695 /* MyFirstTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyFirstTest.h; sourceTree = "<group>"; };
+		99B69BAF1991DBF600F18695 /* MyFirstTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyFirstTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +85,7 @@
 		99B69B5D1991DA2500F18695 = {
 			isa = PBXGroup;
 			children = (
+				99B69BAD1991DBF600F18695 /* MyFirstRepositoryFile */,
 				99B69B6F1991DA2500F18695 /* MyFirstRepositoryDemo */,
 				99B69B8E1991DA2500F18695 /* MyFirstRepositoryDemoTests */,
 				99B69B681991DA2500F18695 /* Frameworks */,
@@ -150,6 +154,16 @@
 				99B69B911991DA2500F18695 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		99B69BAD1991DBF600F18695 /* MyFirstRepositoryFile */ = {
+			isa = PBXGroup;
+			children = (
+				99B69BAE1991DBF600F18695 /* MyFirstTest.h */,
+				99B69BAF1991DBF600F18695 /* MyFirstTest.m */,
+			);
+			name = MyFirstRepositoryFile;
+			path = ../MyFirstRepositoryFile;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -251,6 +265,7 @@
 			files = (
 				99B69B801991DA2500F18695 /* ViewController.m in Sources */,
 				99B69B7A1991DA2500F18695 /* AppDelegate.m in Sources */,
+				99B69BB01991DBF600F18695 /* MyFirstTest.m in Sources */,
 				99B69B761991DA2500F18695 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -456,6 +471,7 @@
 				99B69B9A1991DA2500F18695 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		99B69B9B1991DA2500F18695 /* Build configuration list for PBXNativeTarget "MyFirstRepositoryDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +480,7 @@
 				99B69B9D1991DA2500F18695 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
