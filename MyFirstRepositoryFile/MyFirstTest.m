@@ -10,4 +10,12 @@
 
 @implementation MyFirstTest
 
+-(id)init
+{
+    self = [super init];
+    if (self) {
+        self.modifyTest = @"modify test ok";
+    }
+    return self;
+}
 @end
